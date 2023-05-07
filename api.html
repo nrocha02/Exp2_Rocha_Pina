@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store | La tienda para tus mascotas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/1c866e61ca.js" crossorigin="anonymous"></script>
+    <script src="js/api.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+</head>
+<body>
+
+    <!--MENÚ-->
+
+    <div class="topnav">
+        <a class="active" href="Inicio.html">Inicio</a>
+        <a href="Galeria.html">Productos</a>
+        <a href="Sobre nosotros.html">Sobre nosotros</a>
+        <a href="formulario.html">Contáctate con nosotros</a>
+        <input type="text" placeholder="Buscar producto...">
+    </div>
+
+	<!--API response-->
+    <div class="container mt-5">
+
+        <h2>Razas de Perros</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Esperanza de vida</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </div>
+
+    <!--FOOTER-->
+
+    <hr>
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-square-facebook" style="color: #1e3050;"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram" style="color: #c061cb;"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter" style="color: #3584e4;"></i></a>
+            <a href="#"><i class="fa-brands fa-square-youtube" style="color: #e01b24;"></i></a> 
+            <a href="#"><i class="fa-brands fa-square-google-plus" style="color: #b5835a;"></i></a>
+        </div>
+        
+        <ul class="list">
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Servicios</a>
+            </li>
+            <li>
+                <a href="#">Sobre Nosotros</a>
+            </li>
+            <li>
+                <a href="#">Terminos y Condiciones</a>
+            </li>
+            <li>
+                <a href="#">Políticas de privacidad</a>
+            </li>
+        </ul>
+
+        <hr>
+        <p class="copyright text-center">
+            Todos los derechos reservados, Mauricio Piña & Nicolás Rocha 2023
+        </p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yv06HppcZGetbYMGWSFIBw8HfCJo="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
