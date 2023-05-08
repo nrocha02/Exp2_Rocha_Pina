@@ -12,6 +12,8 @@ const mostrarData=(data)=>{
 		body+=`<tr>                      
 			<td>${data[i].id}</td>       
 			<td>${data[i].name}</td>
+			<td>${data[i].temperament}</td>
+			<td>${data[i].origin}</td>
 			<td>${data[i].life_span}</td>
 			<td><img src="${data[i].image.url}" alt="${data[i].name}"></td>
 			</tr>`
