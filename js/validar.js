@@ -1,4 +1,4 @@
-import moment from "./moment";
+//FUNCIONES JS 
 
 function validarFormulario() {
   //Obtener valores de los campos
@@ -14,11 +14,8 @@ function validarFormulario() {
   var apellidoPaternomensaje = document.getElementById('apeP-mensaje');
   var apellidoMaternomensaje = document.getElementById('apeM-mensaje');
   var fechaNacimientomensaje = document.getElementById('fecha-mensaje');
-  var edadmensaje = document.getElementById('edad-mensaje');
   var generomensaje = document.getElementById('genero-mensaje');
   var validacion = true;
-  
-  console.log(moment(fechaNacimiento.value).format("L"))
 
   console.log(fechaNacimiento.value)
 
@@ -103,7 +100,6 @@ function dv(T) {
   return S ? S - 1 : 'k';
 }
 
-function upperText(texto) {
-  const x = texto;
-  x.value = x.value.toUpperCase();
+function upperText(input) {
+  input.value = input.value.toUpperCase();
 }
